@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.mem__encabezado > h3 {
+    color: #7c7c7c;
+}
+
+.bg-black-card {
+    background: linear-gradient(#151515, #555);
+    border-radius: 8px;
+    height: 30vh;
+}
+
+.bg-background {
+    width: 100%;
+    background: #000 center top no-repeat;
+    background-image: url(../images/bg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.fondo-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../images/fondo-vender.webp);
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+.nav-vender {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-2 {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+i > svg {
+    width: 100px;
+}
+
+.icon-pago {
+    border-radius: 11px;
+    margin: 10px;
+}
+
+.images-footer > img {
+    width: 80px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.images-footer {
+    background-color: rgb(43, 46, 48);
+}
+
+.rectangulo-fondo {
+    opacity: 0.8;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fondo-gris {
+    background-color: rgb(43, 46, 48);
+}
